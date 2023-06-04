@@ -7,7 +7,7 @@ import 'react-native-url-polyfill/auto'
 
 const configuration = new Configuration({
     organization: "org-NfnzMdZC376elOpp2vezW2Vn",
-    apiKey: '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'
+    // apiKey: process.ENV.OPENAI_KEY
 });
 const openai = new OpenAIApi(configuration);
 // const response = await openai.listEngines();
